@@ -211,10 +211,10 @@
 [dir=rtl] .fa-arrow-end:before {
 	content: "\f060";
 }
-[dir=rtl] .fa-arrow-start:before {
+[dir=ltl] .fa-arrow-start:before {
 	content: "\f060";
 }
-[dir=rtl] .fa-arrow-end:before {
+[dir=ltl] .fa-arrow-end:before {
 	content: "\f061";
 }
 
