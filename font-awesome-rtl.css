@@ -350,3 +350,46 @@
 [dir=ltr] .fa-long-arrow-end:before {
 	content: "\f178";
 }
+
+
+/* fa-angle-double */
+
+.fa-angle-double-right:before {
+	content: "\f101";
+}
+.fa-angle-double-left:before {
+	content: "\f100";
+}
+[dir=rtl] .fa-angle-double-right:before {
+	content: "\f100";
+}
+[dir=rtl] .fa-angle-double-left:before {
+	content: "\f101";
+}
+[dir=ltr] .fa-angle-double-right:before {
+	content: "\f101";
+}
+[dir=ltr] .fa-angle-double-left:before {
+	content: "\f100";
+}
+
+/* fa-angle */
+
+.fa-angle-right:before {
+	content: "\f105";
+}
+.fa-angle-left:before {
+	content: "\f104";
+}
+[dir=rtl] .fa-angle-right:before {
+	content: "\f104";
+}
+[dir=rtl] .fa-angle-left:before {
+	content: "\f105";
+}
+[dir=ltr] .fa-angle-right:before {
+	content: "\f105";
+}
+[dir=ltr] .fa-angle-left:before {
+	content: "\f104";
+}
