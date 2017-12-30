@@ -1,0 +1,24 @@
+{
+  "name": "font-awesome-rtl",
+  "version": "1.1.0",
+  "description": "Make font-awesome play nicely on right-to-left websites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fisharebest/font-awesome-rtl.git"
+  },
+  "keywords": [
+    "font",
+    "awesome",
+    "rtl"
+  ],
+  "author": "Greg Roach",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fisharebest/font-awesome-rtl/issues"
+  },
+  "homepage": "https://github.com/fisharebest/font-awesome-rtl#readme"
+}
