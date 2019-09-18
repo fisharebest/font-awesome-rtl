@@ -1,6 +1,9 @@
 CHANGE LOG
 ==========
 
+## 2.0.0 (2019-9-18)
+- Upgrade existing class names to match font-awesome 5. Convert to scss.
+
 ## 1.1.0 (2017-12-16)
  - Media player icons should not be reversed
 

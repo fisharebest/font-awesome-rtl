@@ -1,0 +1,300 @@
+@mixin font-awesome-rtl($ltr-selector, $rtl-selector) {
+	/* Position of bullets on unordered lists */
+
+	#{$rtl-selector} .fa-ul {
+		margin-left: inherit;
+		padding-left: inherit;
+		margin-right: 2.14286em;
+		padding-right: 0;
+	}
+
+	#{$ltr-selector} .fa-ul {
+		margin-left: 2.14286em;
+		padding-left: 0;
+		margin-right: inherit;
+		padding-right: inherit;
+	}
+
+	#{$rtl-selector} .fa-li {
+		left: inherit;
+		right: -2.14286em;
+	}
+
+	#{$ltr-selector} .fa-li {
+		left: -2.14286em;
+		right: inherit;
+	}
+
+	/* Reversible icons */
+
+	#{$rtl-selector} .fa-hand-point-up,
+	#{$rtl-selector} .fa-hand-point-down,
+	#{$rtl-selector} .fa-adjust,
+	#{$rtl-selector} .fa-ban,
+	#{$rtl-selector} .fa-barcode,
+	#{$rtl-selector} .fa-bed,
+	#{$rtl-selector} .fa-beer,
+	#{$rtl-selector} .fa-bell-slash,
+	#{$rtl-selector} .fa-bicycle,
+	#{$rtl-selector} .fa-bolt,
+	#{$rtl-selector} .fa-bomb,
+	#{$rtl-selector} .fa-book,
+	#{$rtl-selector} .fa-chart-area,
+	#{$rtl-selector} .fa-chart-bar,
+	#{$rtl-selector} .fa-chart-line,
+	#{$rtl-selector} .fa-chart-pie,
+	#{$rtl-selector} .fa-expand,
+	#{$rtl-selector} .fa-compress,
+	#{$rtl-selector} .fa-bullhorn,
+	#{$rtl-selector} .fa-spinner,
+	#{$rtl-selector} .fa-star-half,
+	#{$rtl-selector} .fa-star-half-alt {
+		filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1); /* IE8 */
+		transform: scale(-1,1);
+	}
+
+	#{$ltr-selector} .fa-hand-point-up,
+	#{$ltr-selector} .fa-hand-point-down,
+	#{$ltr-selector} .fa-adjust,
+	#{$ltr-selector} .fa-ban,
+	#{$ltr-selector} .fa-barcode,
+	#{$ltr-selector} .fa-bed,
+	#{$ltr-selector} .fa-beer,
+	#{$ltr-selector} .fa-bell-slash,
+	#{$ltr-selector} .fa-bicycle,
+	#{$ltr-selector} .fa-bolt,
+	#{$ltr-selector} .fa-bomb,
+	#{$ltr-selector} .fa-book,
+	#{$ltr-selector} .fa-chart-area,
+	#{$ltr-selector} .fa-chart-bar,
+	#{$ltr-selector} .fa-chart-line,
+	#{$ltr-selector} .fa-chart-pie,
+	#{$ltr-selector} .fa-expand,
+	#{$ltr-selector} .fa-compress,
+	#{$ltr-selector} .fa-bullhorn,
+	#{$ltr-selector} .fa-spinner,
+	#{$ltr-selector} .fa-star-half,
+	#{$ltr-selector} .fa-star-half-alt {
+		transform: none;
+	}
+
+	/* Reverse direction of spin */
+
+	#{$rtl-selector} .fa-spin {
+		animation-direction: reverse;
+	}
+
+	#{$ltr-selector} .fa-spin {
+		animation-direction: normal;
+	}
+
+	/* angle-start/end */
+
+	.fa-angle-start:before {
+		content: "\f104";
+	}
+	.fa-angle-end:before {
+		content: "\f105";
+	}
+	#{$rtl-selector} .fa-angle-start:before {
+		content: "\f105";
+	}
+	#{$rtl-selector} .fa-angle-end:before {
+		content: "\f104";
+	}
+	#{$ltr-selector} .fa-angle-start:before {
+		content: "\f104";
+	}
+	#{$ltr-selector} .fa-angle-end:before {
+		content: "\f105";
+	}
+
+	/* angle-double-start/end */
+
+	.fa-angle-double-start:before {
+		content: "\f100";
+	}
+	.fa-angle-double-end:before {
+		content: "\f101";
+	}
+	#{$rtl-selector} .fa-angle-double-start:before {
+		content: "\f101";
+	}
+	#{$rtl-selector} .fa-angle-double-end:before {
+		content: "\f100";
+	}
+	#{$ltr-selector} .fa-angle-double-start:before {
+		content: "\f100";
+	}
+	#{$ltr-selector} .fa-angle-double-end:before {
+		content: "\f101";
+	}
+
+	/* arrow-alt-circle-start/end */
+
+	.fa-arrow-alt-circle-start:before {
+		content: "\f0a8";
+	}
+	.arrow-alt-circle-end:before {
+		content: "\f0a9";
+	}
+	#{$rtl-selector} .fa-arrow-alt-circle-start:before {
+		content: "\f0a9";
+	}
+	#{$rtl-selector} .arrow-alt-circle-end:before {
+		content: "\f0a8";
+	}
+	#{$ltr-selector} .fa-arrow-alt-circle-start:before {
+		content: "\f0a8";
+	}
+	#{$ltr-selector} .arrow-alt-circle-end:before {
+		content: "\f0a9";
+	}
+
+	/* arrow-start/end */
+
+	.fa-arrow-start:before {
+		content: "\f060";
+	}
+	.fa-arrow-end:before {
+		content: "\f061";
+	}
+	#{$rtl-selector} .fa-arrow-start:before {
+		content: "\f061";
+	}
+	#{$rtl-selector} .fa-arrow-end:before {
+		content: "\f060";
+	}
+	#{$ltr-selector} .fa-arrow-start:before {
+		content: "\f060";
+	}
+	#{$ltr-selector} .fa-arrow-end:before {
+		content: "\f061";
+	}
+
+	/* caret-start/end */
+
+	.fa-caret-start:before {
+		content: "\f0d9";
+	}
+	.fa-caret-end:before {
+		content: "\f0da";
+	}
+	#{$rtl-selector} .fa-caret-start:before {
+		content: "\f0da";
+	}
+	#{$rtl-selector} .fa-caret-end:before {
+		content: "\f0d9";
+	}
+	#{$ltr-selector} .fa-caret-start:before {
+		content: "\f0d9";
+	}
+	#{$ltr-selector} .fa-caret-end:before {
+		content: "\f0da";
+	}
+
+	/* caret-square-start/end */
+
+	.fa-caret-square-start:before {
+		content: "\f191";
+	}
+	.fa-caret-square-end:before {
+		content: "\f152";
+	}
+	#{$rtl-selector} .fa-toggle-start:before {
+		content: "\f152";
+	}
+	#{$rtl-selector} .fa-toggle-end:before {
+		content: "\f191";
+	}
+	#{$ltr-selector} .fa-toggle-start:before {
+		content: "\f191";
+	}
+	#{$ltr-selector} .fa-toggle-end:before {
+		content: "\f152";
+	}
+
+	/* chevron-circle-start/end */
+
+	.fa-chevron-circle-start:before {
+		content: "\f137";
+	}
+	.fa-chevron-circle-end:before {
+		content: "\f138";
+	}
+	#{$rtl-selector} .fa-chevron-circle-start:before {
+		content: "\f138";
+	}
+	#{$rtl-selector} .fa-chevron-circle-end:before {
+		content: "\f137";
+	}
+	#{$ltr-selector} .fa-chevron-circle-start:before {
+		content: "\f137";
+	}
+	#{$ltr-selector} .fa-chevron-circle-end:before {
+		content: "\f138";
+	}
+
+	/* chevron-start/end */
+
+	.fa-chevron-start:before {
+		content: "\f053";
+	}
+	.fa-chevron-end:before {
+		content: "\f054";
+	}
+	#{$rtl-selector} .fa-chevron-start:before {
+		content: "\f054";
+	}
+	#{$rtl-selector} .fa-chevron-end:before {
+		content: "\f053";
+	}
+	#{$ltr-selector} .fa-chevron-start:before {
+		content: "\f053";
+	}
+	#{$ltr-selector} .fa-chevron-end:before {
+		content: "\f054";
+	}
+
+	/* hand-o-start/end */
+
+	.fa-hand-point-start:before {
+		content: "\f0a5";
+	}
+	.fa-hand-point-end:before {
+		content: "\f0a4";
+	}
+	#{$rtl-selector} .fa-hand-point-start:before {
+		content: "\f0a4";
+	}
+	#{$rtl-selector} .fa-hand-point-end:before {
+		content: "\f0a5";
+	}
+	#{$ltr-selector} .fa-hand-point-start:before {
+		content: "\f0a5";
+	}
+	#{$ltr-selector} .fa-hand-point-end:before {
+		content: "\f0a4";
+	}
+
+	/* long-arrow-start/end */
+
+	.fa-long-arrow-start:before {
+		content: "\f177";
+	}
+	.fa-long-arrow-end:before {
+		content: "\f178";
+	}
+	#{$rtl-selector} .fa-long-arrow-start:before {
+		content: "\f178";
+	}
+	#{$rtl-selector} .fa-long-arrow-end:before {
+		content: "\f177";
+	}
+	#{$ltr-selector} .fa-long-arrow-start:before {
+		content: "\f177";
+	}
+	#{$ltr-selector} .fa-long-arrow-end:before {
+		content: "\f178";
+	}
+}
