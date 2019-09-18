@@ -193,15 +193,12 @@
 		content: "\f0da";
 	}
 
-	/* caret-square-o-start/end */
-	/* toggle-start/end*/
+	/* caret-square-start/end */
 
-	.fa-toggle-start:before,
-	.fa-caret-square-o-start:before {
+	.fa-caret-square-start:before {
 		content: "\f191";
 	}
-	.fa-toggle-end:before,
-	.fa-caret-square-o-end:before {
+	.fa-caret-square-end:before {
 		content: "\f152";
 	}
 	#{$rtl-selector} .fa-toggle-start:before {
