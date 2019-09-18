@@ -26,62 +26,54 @@
 
 /* Reversible icons */
 
-[dir=rtl] .fa-hand-o-up,
-[dir=rtl] .fa-hand-o-down,
+[dir=rtl] .fa-hand-point-up,
+[dir=rtl] .fa-hand-point-down,
 [dir=rtl] .fa-adjust,
 [dir=rtl] .fa-ban,
 [dir=rtl] .fa-barcode,
 [dir=rtl] .fa-bed,
 [dir=rtl] .fa-beer,
 [dir=rtl] .fa-bell-slash,
-[dir=rtl] .fa-bell-slash-o,
 [dir=rtl] .fa-bicycle,
 [dir=rtl] .fa-bolt,
 [dir=rtl] .fa-bomb,
 [dir=rtl] .fa-book,
-[dir=rtl] .fa-area-chart,
-[dir=rtl] .fa-bar-chart,
-[dir=rtl] .fa-bar-chart-o,
-[dir=rtl] .fa-line-chart,
-[dir=rtl] .fa-pie-chart,
+[dir=rtl] .fa-chart-area,
+[dir=rtl] .fa-chart-bar,
+[dir=rtl] .fa-chart-line,
+[dir=rtl] .fa-chart-pie,
 [dir=rtl] .fa-expand,
 [dir=rtl] .fa-compress,
 [dir=rtl] .fa-bullhorn,
 [dir=rtl] .fa-spinner,
 [dir=rtl] .fa-star-half,
-[dir=rtl] .fa-star-half-empty,
-[dir=rtl] .fa-star-half-full,
-[dir=rtl] .fa-star-half-o {
+[dir=rtl] .fa-star-half-alt {
 	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1); /* IE8 */
 	transform: scale(-1,1);
 }
 
-[dir=ltr] .fa-hand-o-up,
-[dir=ltr] .fa-hand-o-down,
+[dir=ltr] .fa-hand-point-up,
+[dir=ltr] .fa-hand-point-down,
 [dir=ltr] .fa-adjust,
 [dir=ltr] .fa-ban,
 [dir=ltr] .fa-barcode,
 [dir=ltr] .fa-bed,
 [dir=ltr] .fa-beer,
 [dir=ltr] .fa-bell-slash,
-[dir=ltr] .fa-bell-slash-o,
 [dir=ltr] .fa-bicycle,
 [dir=ltr] .fa-bolt,
 [dir=ltr] .fa-bomb,
 [dir=ltr] .fa-book,
-[dir=ltr] .fa-area-chart,
-[dir=ltr] .fa-bar-chart,
-[dir=ltr] .fa-bar-chart-o,
-[dir=ltr] .fa-line-chart,
-[dir=ltr] .fa-pie-chart,
+[dir=ltr] .fa-chart-area,
+[dir=ltr] .fa-chart-bar,
+[dir=ltr] .fa-chart-line,
+[dir=ltr] .fa-chart-pie,
 [dir=ltr] .fa-expand,
 [dir=ltr] .fa-compress,
 [dir=ltr] .fa-bullhorn,
 [dir=ltr] .fa-spinner,
 [dir=ltr] .fa-star-half,
-[dir=ltr] .fa-star-half-empty,
-[dir=ltr] .fa-star-half-full,
-[dir=ltr] .fa-star-half-o {
+[dir=ltr] .fa-star-half-alt {
 	transform: none;
 }
 
@@ -137,46 +129,25 @@
 	content: "\f101";
 }
 
-/* arrow-circle-start/end */
+/* arrow-alt-circle-start/end */
 
-.fa-arrow-circle-start:before {
+.fa-arrow-alt-circle-start:before {
 	content: "\f0a8";
 }
-.fa-arrow-circle-end:before {
+.arrow-alt-circle-end:before {
 	content: "\f0a9";
 }
-[dir=rtl] .fa-arrow-circle-start:before {
+[dir=rtl] .fa-arrow-alt-circle-start:before {
 	content: "\f0a9";
 }
-[dir=rtl] .fa-arrow-circle-end:before {
+[dir=rtl] .arrow-alt-circle-end:before {
 	content: "\f0a8";
 }
-[dir=ltr] .fa-arrow-circle-start:before {
+[dir=ltr] .fa-arrow-alt-circle-start:before {
 	content: "\f0a8";
 }
-[dir=ltr] .fa-arrow-circle-end:before {
+[dir=ltr] .arrow-alt-circle-end:before {
 	content: "\f0a9";
-}
-
-/* arrow-circle-o-start/end */
-
-.fa-arrow-circle-o-start:before {
-	content: "\f190";
-}
-.fa-arrow-circle-o-end:before {
-	content: "\f18e";
-}
-[dir=rtl] .fa-arrow-circle-o-start:before {
-	content: "\f18e";
-}
-[dir=rtl] .fa-arrow-circle-o-end:before {
-	content: "\f190";
-}
-[dir=ltr] .fa-arrow-circle-o-start:before {
-	content: "\f190";
-}
-[dir=ltr] .fa-arrow-circle-o-end:before {
-	content: "\f18e";
 }
 
 /* arrow-start/end */
@@ -232,20 +203,16 @@
 .fa-caret-square-o-end:before {
 	content: "\f152";
 }
-[dir=rtl] .fa-toggle-start:before,
-[dir=rtl] .fa-caret-square-o-start:before {
+[dir=rtl] .fa-toggle-start:before {
 	content: "\f152";
 }
-[dir=rtl] .fa-toggle-end:before,
-[dir=rtl] .fa-caret-square-o-end:before {
+[dir=rtl] .fa-toggle-end:before {
 	content: "\f191";
 }
-[dir=ltr] .fa-toggle-start:before,
-[dir=ltr] .fa-caret-square-o-start:before {
+[dir=ltr] .fa-toggle-start:before {
 	content: "\f191";
 }
-[dir=ltr] .fa-toggle-end:before,
-[dir=ltr] .fa-caret-square-o-end:before {
+[dir=ltr] .fa-toggle-end:before {
 	content: "\f152";
 }
 
@@ -293,22 +260,22 @@
 
 /* hand-o-start/end */
 
-.fa-hand-o-start:before {
+.fa-hand-point-start:before {
 	content: "\f0a5";
 }
-.fa-hand-o-end:before {
+.fa-hand-point-end:before {
 	content: "\f0a4";
 }
-[dir=rtl] .fa-hand-o-start:before {
+[dir=rtl] .fa-hand-point-start:before {
 	content: "\f0a4";
 }
-[dir=rtl] .fa-hand-o-end:before {
+[dir=rtl] .fa-hand-point-end:before {
 	content: "\f0a5";
 }
-[dir=ltr] .fa-hand-o-start:before {
+[dir=ltr] .fa-hand-point-start:before {
 	content: "\f0a5";
 }
-[dir=ltr] .fa-hand-o-end:before {
+[dir=ltr] .fa-hand-point-end:before {
 	content: "\f0a4";
 }
 
