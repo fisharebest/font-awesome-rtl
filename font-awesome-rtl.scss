@@ -1,0 +1,3 @@
+@import 'mixins/font-awesome-rtl';
+
+@include font-awesome-rtl("[dir=ltr]", "[dir=rtl]");

@@ -1,31 +1,30 @@
+@charset "UTF-8";
 /* Position of bullets on unordered lists */
-
 [dir=rtl] .fa-ul {
-	margin-left: inherit;
-	padding-left: inherit;
-	margin-right: 2.14286em;
-	padding-right: 0;
+  margin-left: inherit;
+  padding-left: inherit;
+  margin-right: 2.14286em;
+  padding-right: 0;
 }
 
 [dir=ltr] .fa-ul {
-	margin-left: 2.14286em;
-	padding-left: 0;
-	margin-right: inherit;
-	padding-right: inherit;
+  margin-left: 2.14286em;
+  padding-left: 0;
+  margin-right: inherit;
+  padding-right: inherit;
 }
 
 [dir=rtl] .fa-li {
-	left: inherit;
-	right: -2.14286em;
+  left: inherit;
+  right: -2.14286em;
 }
 
 [dir=ltr] .fa-li {
-	left: -2.14286em;
-	right: inherit;
+  left: -2.14286em;
+  right: inherit;
 }
 
 /* Reversible icons */
-
 [dir=rtl] .fa-hand-point-up,
 [dir=rtl] .fa-hand-point-down,
 [dir=rtl] .fa-adjust,
@@ -48,8 +47,9 @@
 [dir=rtl] .fa-spinner,
 [dir=rtl] .fa-star-half,
 [dir=rtl] .fa-star-half-alt {
-	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1); /* IE8 */
-	transform: scale(-1,1);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
+  /* IE8 */
+  transform: scale(-1, 1);
 }
 
 [dir=ltr] .fa-hand-point-up,
@@ -74,228 +74,267 @@
 [dir=ltr] .fa-spinner,
 [dir=ltr] .fa-star-half,
 [dir=ltr] .fa-star-half-alt {
-	transform: none;
+  transform: none;
 }
 
 /* Reverse direction of spin */
-
 [dir=rtl] .fa-spin {
-	animation-direction: reverse;
+  animation-direction: reverse;
 }
 
 [dir=ltr] .fa-spin {
-	animation-direction: normal;
+  animation-direction: normal;
 }
 
 /* angle-start/end */
-
 .fa-angle-start:before {
-	content: "\f104";
+  content: "";
 }
+
 .fa-angle-end:before {
-	content: "\f105";
+  content: "";
 }
+
 [dir=rtl] .fa-angle-start:before {
-	content: "\f105";
+  content: "";
 }
+
 [dir=rtl] .fa-angle-end:before {
-	content: "\f104";
+  content: "";
 }
+
 [dir=ltr] .fa-angle-start:before {
-	content: "\f104";
+  content: "";
 }
+
 [dir=ltr] .fa-angle-end:before {
-	content: "\f105";
+  content: "";
 }
 
 /* angle-double-start/end */
-
 .fa-angle-double-start:before {
-	content: "\f100";
+  content: "";
 }
+
 .fa-angle-double-end:before {
-	content: "\f101";
+  content: "";
 }
+
 [dir=rtl] .fa-angle-double-start:before {
-	content: "\f101";
+  content: "";
 }
+
 [dir=rtl] .fa-angle-double-end:before {
-	content: "\f100";
+  content: "";
 }
+
 [dir=ltr] .fa-angle-double-start:before {
-	content: "\f100";
+  content: "";
 }
+
 [dir=ltr] .fa-angle-double-end:before {
-	content: "\f101";
+  content: "";
 }
 
 /* arrow-alt-circle-start/end */
-
 .fa-arrow-alt-circle-start:before {
-	content: "\f0a8";
+  content: "";
 }
+
 .arrow-alt-circle-end:before {
-	content: "\f0a9";
+  content: "";
 }
+
 [dir=rtl] .fa-arrow-alt-circle-start:before {
-	content: "\f0a9";
+  content: "";
 }
+
 [dir=rtl] .arrow-alt-circle-end:before {
-	content: "\f0a8";
+  content: "";
 }
+
 [dir=ltr] .fa-arrow-alt-circle-start:before {
-	content: "\f0a8";
+  content: "";
 }
+
 [dir=ltr] .arrow-alt-circle-end:before {
-	content: "\f0a9";
+  content: "";
 }
 
 /* arrow-start/end */
-
 .fa-arrow-start:before {
-	content: "\f060";
+  content: "";
 }
+
 .fa-arrow-end:before {
-	content: "\f061";
+  content: "";
 }
+
 [dir=rtl] .fa-arrow-start:before {
-	content: "\f061";
+  content: "";
 }
+
 [dir=rtl] .fa-arrow-end:before {
-	content: "\f060";
+  content: "";
 }
+
 [dir=ltr] .fa-arrow-start:before {
-	content: "\f060";
+  content: "";
 }
+
 [dir=ltr] .fa-arrow-end:before {
-	content: "\f061";
+  content: "";
 }
 
 /* caret-start/end */
-
 .fa-caret-start:before {
-	content: "\f0d9";
+  content: "";
 }
+
 .fa-caret-end:before {
-	content: "\f0da";
+  content: "";
 }
+
 [dir=rtl] .fa-caret-start:before {
-	content: "\f0da";
+  content: "";
 }
+
 [dir=rtl] .fa-caret-end:before {
-	content: "\f0d9";
+  content: "";
 }
+
 [dir=ltr] .fa-caret-start:before {
-	content: "\f0d9";
+  content: "";
 }
+
 [dir=ltr] .fa-caret-end:before {
-	content: "\f0da";
+  content: "";
 }
 
 /* caret-square-o-start/end */
 /* toggle-start/end*/
-
 .fa-toggle-start:before,
 .fa-caret-square-o-start:before {
-	content: "\f191";
+  content: "";
 }
+
 .fa-toggle-end:before,
 .fa-caret-square-o-end:before {
-	content: "\f152";
+  content: "";
 }
+
 [dir=rtl] .fa-toggle-start:before {
-	content: "\f152";
+  content: "";
 }
+
 [dir=rtl] .fa-toggle-end:before {
-	content: "\f191";
+  content: "";
 }
+
 [dir=ltr] .fa-toggle-start:before {
-	content: "\f191";
+  content: "";
 }
+
 [dir=ltr] .fa-toggle-end:before {
-	content: "\f152";
+  content: "";
 }
 
 /* chevron-circle-start/end */
-
 .fa-chevron-circle-start:before {
-	content: "\f137";
+  content: "";
 }
+
 .fa-chevron-circle-end:before {
-	content: "\f138";
+  content: "";
 }
+
 [dir=rtl] .fa-chevron-circle-start:before {
-	content: "\f138";
+  content: "";
 }
+
 [dir=rtl] .fa-chevron-circle-end:before {
-	content: "\f137";
+  content: "";
 }
+
 [dir=ltr] .fa-chevron-circle-start:before {
-	content: "\f137";
+  content: "";
 }
+
 [dir=ltr] .fa-chevron-circle-end:before {
-	content: "\f138";
+  content: "";
 }
 
 /* chevron-start/end */
-
 .fa-chevron-start:before {
-	content: "\f053";
+  content: "";
 }
+
 .fa-chevron-end:before {
-	content: "\f054";
+  content: "";
 }
+
 [dir=rtl] .fa-chevron-start:before {
-	content: "\f054";
+  content: "";
 }
+
 [dir=rtl] .fa-chevron-end:before {
-	content: "\f053";
+  content: "";
 }
+
 [dir=ltr] .fa-chevron-start:before {
-	content: "\f053";
+  content: "";
 }
+
 [dir=ltr] .fa-chevron-end:before {
-	content: "\f054";
+  content: "";
 }
 
 /* hand-o-start/end */
-
 .fa-hand-point-start:before {
-	content: "\f0a5";
+  content: "";
 }
+
 .fa-hand-point-end:before {
-	content: "\f0a4";
+  content: "";
 }
+
 [dir=rtl] .fa-hand-point-start:before {
-	content: "\f0a4";
+  content: "";
 }
+
 [dir=rtl] .fa-hand-point-end:before {
-	content: "\f0a5";
+  content: "";
 }
+
 [dir=ltr] .fa-hand-point-start:before {
-	content: "\f0a5";
+  content: "";
 }
+
 [dir=ltr] .fa-hand-point-end:before {
-	content: "\f0a4";
+  content: "";
 }
 
 /* long-arrow-start/end */
-
 .fa-long-arrow-start:before {
-	content: "\f177";
+  content: "";
 }
+
 .fa-long-arrow-end:before {
-	content: "\f178";
+  content: "";
 }
+
 [dir=rtl] .fa-long-arrow-start:before {
-	content: "\f178";
+  content: "";
 }
+
 [dir=rtl] .fa-long-arrow-end:before {
-	content: "\f177";
+  content: "";
 }
+
 [dir=ltr] .fa-long-arrow-start:before {
-	content: "\f177";
+  content: "";
 }
+
 [dir=ltr] .fa-long-arrow-end:before {
-	content: "\f178";
+  content: "";
 }

@@ -1,0 +1,14 @@
+{
+	"name": "font-awesome-rtl",
+	"version": "2.0.0",
+	"description": "Make font-awesome play nicely on right-to-left websites",
+	"repository": "https://github.com/fisharebest/font-awesome-rtl.git",
+	"author": "Greg Roach <fisharebest@gmail.com>",
+	"license": "MIT",
+	"scripts": {
+		"build": "dart-sass font-awesome-rtl.scss:font-awesome-rtl.css --no-source-map"
+	},
+	"devDependencies": {
+		"dart-sass": "^1.22.12"
+	}
+}
